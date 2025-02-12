@@ -1,4 +1,4 @@
-CREATE DATABASE books_management;
+CREATE DATABASE books_management IF NOT EXIST;
 USE books_management;
 
 CREATE TABLE books (
