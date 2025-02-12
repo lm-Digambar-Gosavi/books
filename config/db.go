@@ -11,7 +11,7 @@ import (
 var DB *sql.DB
 
 func ConnectDB() error {
-	connectionString := "root:root@tcp(127.0.0.1:3306)/books_management?parseTime=true"
+	connectionString := "root:root@tcp(127.0.0.1:3306)/books_db?parseTime=true"
 
 	var err error
 	DB, err = sql.Open("mysql", connectionString)

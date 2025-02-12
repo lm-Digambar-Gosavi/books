@@ -1,5 +1,5 @@
-CREATE DATABASE books_management IF NOT EXIST;
-USE books_management;
+CREATE DATABASE books_db IF NOT EXIST;
+USE books_db;
 
 CREATE TABLE books (
     id             INT AUTO_INCREMENT PRIMARY KEY,
